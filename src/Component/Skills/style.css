@@ -1,0 +1,26 @@
+.heading{
+    color: rgb(120, 120, 239);
+}
+.heading1{
+    margin-top: 7rem;
+}
+.skill{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 9rem;
+    height: 3rem;
+    padding: 3rem;
+    margin-bottom: 100px;
+    border-radius: 12px;
+}
+

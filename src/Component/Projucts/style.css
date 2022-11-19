@@ -1,0 +1,33 @@
+.heading{
+    color: rgb(120, 120, 239);
+}
+.heading1{
+    margin-top: 7rem;
+}
+.card-images{
+    height: 240px;
+    width: 250spx;
+    margin: 0;
+}
+.projects{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+}
+.card-tem{
+    height: 300px;
+    width: 250px;
+    display: flex;
+    margin: 1rem;
+    justify-content:space-between !important;
+    flex-direction: column !important;
+}
+button{
+    background: rgb(120, 120, 239);
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}

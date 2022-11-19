@@ -1,0 +1,28 @@
+.about{
+    display: flex;
+    padding-top: 5rem;
+}
+.heading{
+    color: rgb(120, 120, 239);
+}
+.heading1{
+    margin-top: 7rem;
+}
+.text{
+    text-align: justify;
+}
+
+.image{
+    background: rgb(120, 120, 239);
+    height: 500px;
+    width: 320px;
+    margin-left: 10rem;
+    position: absolute;
+}
+.images{
+    height: 500px;
+    width: 320px;
+    position: relative;
+    margin-left:9.5rem;
+    margin-top: 0.5rem;
+}
