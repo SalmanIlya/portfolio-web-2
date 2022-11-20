@@ -2,7 +2,7 @@ import React from 'react'
 import "./style.css"
 const About = () => {
   return (
-    <div >
+    <div id='about'>
 <h1 className='heading text-center heading1'><strong>About</strong></h1>
     <div className='about container '>
 

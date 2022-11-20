@@ -32,7 +32,7 @@ const Projects = () => {
         },
     ]
   return (
-    <div>
+    <div id='project'>
         <h1 className='heading text-center heading1'><strong>Projects</strong></h1>
 <div className='d-flex flex-row flex-wrap  container mt-5'>
 {

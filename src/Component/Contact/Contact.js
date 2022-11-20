@@ -5,7 +5,7 @@ import {FiInstagram} from "react-icons/fi"
 import "./style.css"
 const Contact = () => {
   return (
-    <div>
+    <div id='contact'>
 <h1 className='heading text-center heading1'><strong>Contact us</strong></h1>
 <div className='main-box container'>
 <div className='box1 d-flex flex-column bg-light shadow aline-center'>

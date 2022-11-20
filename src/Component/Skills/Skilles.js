@@ -2,7 +2,7 @@ import React from 'react'
 import "./style.css"
 const Skilles = () => {
   return (
-    <div>
+    <div id='skill'>
 <h1 className='heading text-center heading1'><strong>Skilles</strong></h1>
 <div className='skill w-75 container'>
 <div className='skills bg-light shadow m-2'>
