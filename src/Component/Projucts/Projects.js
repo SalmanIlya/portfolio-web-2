@@ -1,63 +1,62 @@
-import React, { useState } from 'react'
+import React  from 'react'
 import "./style.css"
 const Projects = () => {
-    const Data=[
+    const data=[
         {
             id:1,
-            image:"",
-            title:"E-commers-webside-frontend",
-            link:"",
-            githubLink:""
+            image:"web/1.png",
+            title:"Portfolio webside 1",
+            link:"https://dainty-bublanina-2a12a5.netlify.app/",
+            github:"https://github.com/SalmanIlya/portfolio-webside"
         },
         {
             id:2,
-            image:"",
-            title:"Bootstrap-Ecommers-Webside",
-            link:"",
-            githubLink:""
+            image:"web/2.png",
+            title:"Ecommers webside ",
+            link:"https://elaborate-dasik-dc605a.netlify.app/",
+            github:"https://github.com/SalmanIlya/Dump-Ecommers-Webside"
         },
         {
             id:3,
-            image:"",
-            title:"Admin-Dashbord",
-            link:"",
-            githubLink:""
+            image:"web/3.png",
+            title:"Portfolio webside 2",
+            link:"https://tubular-gumdrop-1f820d.netlify.app/",
+            github:"https://github.com/SalmanIlya/portfolio-web-2"
         },
         {
             id:4,
-            image:"",
-            title:"Portfolio-webside",
-            link:"",
-            githubLink:""
-        }
-
+            image:"web/4.png",
+            title:"Admin dashboard",
+            link:"https://dashing-parfait-7fab26.netlify.app/",
+            github:"https://github.com/SalmanIlya/dashbord"
+        },
     ]
-    const [item,setitem]=useState(Data)
-console.log(item);
   return (
     <div>
         <h1 className='heading text-center heading1'><strong>Projects</strong></h1>
-
-
-
-<div className='projects'>
+<div className='d-flex flex-row flex-wrap  container mt-5'>
 {
-item.map((item)=>{
-    return(
-        <div class=" card-tem card shadow" >
-  <img class="card-img-top" src="image/1.jpg" alt="Card image cap"/>
-  <div class="card-body bg-light">
-    <h5 class="card-title">{item.title}</h5>
-    <div className='d-flex justify-content-between'>
-    <button>visit now</button>
-    <button>visit github</button>
-    </div>
-  </div>
-</div>
-    )
-})
+    data.map((item)=>{
+        return (
+            <div className='m-3 shadow mt-5 card bg-light' key={item.id}>
+                 <div className='p-box'>
+                <img src={item.image} className=" img "/>
+                </div>
+                <div className='box-div card-body'>
+                    <h3>{item.title}</h3>
+                    <div>
+                    <a className='link' href={item.github}><button className='btn' >Visit GitHub</button></a>
+                    <a className='link' href={item.link}>  <button className='btn' >visit Webside</button></a>
+                        </div>
+                </div>
+               
+                </div>
+        )
+    })
 }
+
 </div>
+
 
     </div>
   )

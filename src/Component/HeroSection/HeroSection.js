@@ -2,6 +2,8 @@ import React from 'react'
 import "./style.css"
 import {BsLinkedin ,BsGithub} from "react-icons/bs"
 import {MdEmail} from "react-icons/md"
+import {FiInstagram} from "react-icons/fi"
+
 const HeroSection = () => {
   return (
     <div >
@@ -14,6 +16,7 @@ const HeroSection = () => {
                 <a href='!#' className='rounded-circle m-2 p-3 px-3  shadow'><BsLinkedin/></a>
                 <a href='!#' className='rounded-circle m-2 p-3 px-3 text-black shadow'><BsGithub/></a>
                 <a href='!#' className='rounded-circle m-2 p-3 px-3 text-warning  shadow'><MdEmail/></a>
+                <a href='!#' className='rounded-circle m-2 p-3 px-3 text-danger shadow'><FiInstagram/></a>
             </div>
         </div>
 

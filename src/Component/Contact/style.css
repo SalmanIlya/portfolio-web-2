@@ -1,0 +1,55 @@
+.heading{
+    color: rgb(120, 120, 239);
+}
+.heading1{
+    margin-top: 15rem;
+}
+.main-box{
+    display: flex;
+    flex-direction: row;
+}
+.box1{
+width: 25rem;
+height: 500px;
+margin: 1rem;
+border-radius: 12px;
+
+}
+
+.box2{
+    width: 60rem;
+    height: 500px;
+    margin: 1rem;
+border-radius: 12px;
+    }
+    .contact-image{
+        width: 19rem;
+        margin: 10px;
+        border-radius: 12px;
+    }
+    .input{
+        width: 35rem;
+        height: 2.5rem;
+        padding: 5px;
+        font-size: 20px;
+        border: none;
+        outline: none;
+
+    }
+    .textarea{
+width: 35rem !important;
+margin-left: 1rem;
+font-size: 20px;
+border: none;
+outline: none;
+    }
+    .btn1{
+        margin: 1rem;
+    background: rgb(120, 120, 239);
+    color: white;
+    height: 2.5rem;
+    width: 35rem;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    }

@@ -4,30 +4,39 @@
 .heading1{
     margin-top: 7rem;
 }
-.card-images{
-    height: 240px;
-    width: 250spx;
-    margin: 0;
-}
-.projects{
-    display: flex !important;
-    flex-direction: row !important;
-    justify-content: center !important;
-    align-items: center !important;
-    flex-wrap: wrap !important;
-}
-.card-tem{
+.img{ 
     height: 300px;
-    width: 250px;
-    display: flex;
-    margin: 1rem;
-    justify-content:space-between !important;
-    flex-direction: column !important;
+    width: 500px;
+    margin: 10px;
+    border-radius: 12px;
 }
-button{
-    background: rgb(120, 120, 239);
-    color: white;
-    border: none;
-    border-radius: 5px;
+.img :hover{
+    display: none !important;
+}
+
+.p-box :hover{
+    color: gray !important;
+    background-color: gray !important;
+}
+.link{
+    text-decoration: none;
+color: white;
+}
+
+.btn{
+    background: rgb(120, 120, 239) !important;
+    color: white !important;
+    padding: 1rem !important;
+
+}
+.card{
+    height: 450px;
+    
+}
+.btn:hover{
+    color: rgb(120, 120, 239) !important;
+    border: 1px solid rgb(120, 120, 239) !important;
+    background:white !important;
+transition: all 1s;
 
 }
