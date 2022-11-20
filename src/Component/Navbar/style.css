@@ -1,0 +1,17 @@
+li{
+    border-bottom: 4px solid rgb(120, 120, 239);
+    width: 5rem;
+    cursor: pointer;
+    padding: 1rem !important;
+    transition: all 1s !important;
+    border-radius: 10px;
+
+}
+li:hover{
+    border-bottom: none;
+    background: rgb(120, 120, 239) !important;
+    color:white !important ;
+    transition: all 1s !important;
+
+
+}
