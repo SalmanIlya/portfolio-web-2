@@ -1,17 +1,25 @@
 li{
-    border-bottom: 4px solid rgb(120, 120, 239);
-    width: 5rem;
+    
+    /* width: 5rem; */
+    /* height: 3rem; */
     cursor: pointer;
-    padding: 1rem !important;
+    padding: 10px;
     transition: all 1s !important;
-    border-radius: 10px;
+ border-bottom: 4px solid rgb(120, 120, 239);
+ border-radius: 12px;
+ color: rgb(120, 120, 239);
 
+ 
 }
+
+
 li:hover{
     border-bottom: none;
     background: rgb(120, 120, 239) !important;
     color:white !important ;
     transition: all 1s !important;
-
-
+}
+.logo{
+    width: 6rem;
+    height: 6rem;
 }

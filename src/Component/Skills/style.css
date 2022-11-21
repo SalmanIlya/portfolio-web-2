@@ -14,13 +14,24 @@
 }
 .skills{
     display: flex;
+    font-size: 16px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 9rem;
+    width: auto;
     height: 3rem;
     padding: 3rem;
     margin-bottom: 100px;
     border-radius: 12px;
+    transition: all 0.5s;
 }
+.skills:hover{
+ 
+    border: 5px solid  rgb(120, 120, 239) ;
+  color : rgb(120, 120, 239);
+  height: 4rem;
+  
+}
+
+
 

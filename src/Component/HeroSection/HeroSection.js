@@ -3,6 +3,7 @@ import "./style.css"
 import {BsLinkedin ,BsGithub} from "react-icons/bs"
 import {MdEmail} from "react-icons/md"
 import {FiInstagram} from "react-icons/fi"
+import {SiWhatsapp} from "react-icons/si"
 
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
@@ -26,7 +27,9 @@ const HeroSection = () => {
     };
   }, []);
   return (
-    <div >
+    <div id='home'>
+     
+      <div className='w-25 h-50'></div>
         <div className='herosection'>
             <p>let's built some thing toGetHer</p>
             <h1><strong>  Hi, I'm <span className='name'>{/* Element to display typing strings */}
@@ -39,6 +42,7 @@ const HeroSection = () => {
                 <a href='!#' className='rounded-circle m-2 p-3 px-3 text-black shadow'><BsGithub/></a>
                 <a href='!#' className='rounded-circle m-2 p-3 px-3 text-warning  shadow'><MdEmail/></a>
                 <a href='!#' className='rounded-circle m-2 p-3 px-3 text-danger shadow'><FiInstagram/></a>
+                <a href='https://wa.me/+92300-0516714' className='rounded-circle m-2 p-3 px-3 text-success shadow'  ><SiWhatsapp/></a>
             </div>
         </div>
 
