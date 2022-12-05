@@ -1,37 +1,32 @@
-.heading{
-    color: rgb(120, 120, 239);
+.heading {
+  color: rgb(120, 120, 239);
 }
-.heading1{
-    margin-top: 7rem;
+.heading1 {
+  margin-top: 7rem;
 }
-.skill{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5rem;
+.skill {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
 }
-.skills{
-    display: flex;
-    font-size: 16px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    height: 3rem;
-    padding: 3rem;
-    margin-bottom: 100px;
-    border-radius: 12px;
-    transition: all 0.5s;
+.skills {
+  display: flex;
+  font-size: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 2rem;
+  padding: 2rem;
+  margin-bottom: 100px;
+  border-radius: 12px;
+  transition: all 0.5s;
 }
-.skills:hover{
- 
-    border: 5px solid  rgb(120, 120, 239) ;
-  color : rgb(120, 120, 239);
+.skills:hover {
+  border: 5px solid rgb(120, 120, 239);
+  color: rgb(120, 120, 239);
   height: 4rem;
-  
 }
-
-
-
