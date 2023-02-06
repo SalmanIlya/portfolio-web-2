@@ -40,3 +40,157 @@ color: white;
 transition: all 1s;
 
 }
+
+@media only screen and (max-width: 770px){
+    
+    .heading{
+        color: rgb(120, 120, 239);
+    }
+    .heading1{
+        margin-top: 7rem;
+    }
+    .img{ 
+        height: 300px;
+        width: 400px;
+        /* margin: 10px; */
+        border-radius: 12px;
+    }
+    .img :hover{
+        display: none !important;
+    }
+    
+    .p-box :hover{
+        color: gray !important;
+        background-color: gray !important;
+    }
+    .link{
+        text-decoration: none;
+    color: white;
+    }
+    
+    .btn{
+        background: rgb(120, 120, 239) !important;
+        color: white !important;
+        padding: 1rem !important;
+    
+    }
+    .card{
+        height: 450px;
+        
+    }
+}
+
+@media only screen and (max-width: 480px){
+    
+    .heading{
+        color: rgb(120, 120, 239);
+    }
+    .heading1{
+        margin-top: 7rem;
+    }
+    .img{ 
+        height: 250px;
+        width: 350px;
+        /* margin: 10px; */
+        border-radius: 12px;
+    }
+    .img :hover{
+        display: none !important;
+    }
+    
+    .p-box :hover{
+        color: gray !important;
+        background-color: gray !important;
+    }
+    .link{
+        text-decoration: none;
+    color: white;
+    }
+    
+    .btn{
+        background: rgb(120, 120, 239) !important;
+        color: white !important;
+        padding: 0.7rem !important;
+    
+    }
+    .card{
+        height: 400px;
+        
+    }
+}
+
+
+@media only screen and (max-width: 425px){
+    
+    .heading{
+        color: rgb(120, 120, 239);
+    }
+    .heading1{
+        margin-top: 7rem;
+    }
+    .img{ 
+        height: 220px;
+        width: 300px;
+        border-radius: 12px;
+    }
+    .img :hover{
+        display: none !important;
+    }
+    
+    .p-box :hover{
+        color: gray !important;
+        background-color: gray !important;
+    }
+    .link{
+        text-decoration: none;
+    color: white;
+    }
+    
+    .btn{
+        background: rgb(120, 120, 239) !important;
+        color: white !important;
+        padding: 0.5rem !important;
+    
+    }
+    .card{
+        height: 350px;
+        
+    }
+}
+
+@media only screen and (max-width: 375px){
+    
+    .heading{
+        color: rgb(120, 120, 239);
+    }
+    .heading1{
+        margin-top: 7rem;
+    }
+    .img{ 
+        height: 200px;
+        width: 230px;
+        border-radius: 12px;
+       
+    }
+    
+    .p-box :hover{
+        color: gray !important;
+        background-color: gray !important;
+    }
+    .link{
+        text-decoration: none;
+    color: white;
+    }
+    
+    .btn{
+        background: rgb(120, 120, 239) !important;
+        color: white !important;
+        padding: 5px !important;
+        margin: 5px;
+    
+    }
+    .card{
+        height: 320px !important;
+        
+    }
+}

@@ -24,9 +24,12 @@
   margin-bottom: 100px;
   border-radius: 12px;
   transition: all 0.5s;
+  height: 4rem;
+
 }
 .skills:hover {
   border: 5px solid rgb(120, 120, 239);
   color: rgb(120, 120, 239);
-  height: 4rem;
+  margin-bottom:100px ;
+  padding: 2rem;
 }

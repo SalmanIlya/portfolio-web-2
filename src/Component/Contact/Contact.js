@@ -1,9 +1,24 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import {BsLinkedin ,BsGithub} from "react-icons/bs"
 import {MdEmail} from "react-icons/md"
 import {FiInstagram} from "react-icons/fi"
+import emailjs from '@emailjs/browser';
 import "./style.css"
+import Emailjs from './Email';
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_6iuibih', 'template_lpmc5w8', form.current, 'rg40cSYbh5fmGh9iG')
+      .then((result) => {
+          console.log("oh");
+      }, (error) => {
+          console.log("error");
+      });
+  };
+
   return (
     <div id='contact'>
 <h1 className='heading text-center heading1'><strong>Contact us</strong></h1>
@@ -19,22 +34,17 @@ const Contact = () => {
     Contact me and let's talk
 </p>
 </div>
-<div className=' mt-5 p-3'>
-<a href='!#' className='rounded-circle m-2 p-3 px-3  shadow'><BsLinkedin/></a>
-                <a href='!#' className='rounded-circle m-2 p-3 px-3 text-black shadow'><BsGithub/></a>
-                <a href='!#' className='rounded-circle m-2 p-3 px-3 text-warning  shadow'><MdEmail/></a>
-                <a href='!#' className='rounded-circle m-2 p-3 px-3 text-danger shadow'><FiInstagram/></a>
+<div className=' mt-5 p-3 d-flex flex-row justify-content-center align-items-center bg-light '>
+<a href='!#' className='rounded-circle m-1 p-2 px-3  shadow'><BsLinkedin/></a>
+                <a href='!#' className='rounded-circle m-1 p-2 px-3 text-black shadow'><BsGithub/></a>
+                <a href='!#' className='rounded-circle m-1 p-2 px-3 text-warning  shadow'><MdEmail/></a>
+                <a href='!#' className='rounded-circle m-1 p-2 px-3 text-danger shadow'><FiInstagram/></a>
 </div>
 </div>
 
 </div >
-<div className='box2 d-flex flex-column bg-light p-5 shadow'>
-<input className='m-3 rounded input' type="text" placeholder="Full-Name" />
-<input className='m-3 rounded input' type="text" placeholder="Email" />
-<input className='m-3 rounded input' type="text" placeholder="Subject" />
-
-<textarea className='textarea rounded' placeholder='Please Enter Your Massage...' rows={5} cols={9}/>
-<button className='btn1'>Send Massage</button>
+<div className='box2 d-flex flex-column justify-content-center align-items-center bg-light p-5 shadow'>
+   <Emailjs/>
 </div>
 </div>
     </div>

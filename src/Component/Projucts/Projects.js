@@ -34,7 +34,7 @@ const Projects = () => {
   return (
     <div id='project'>
         <h1 className='heading text-center heading1'><strong>Projects</strong></h1>
-<div className='d-flex flex-row flex-wrap  container mt-5'>
+<div className='d-flex flex-row flex-wrap justify-content-center align-items-center container mt-5'>
 {
     data.map((item)=>{
         return (
@@ -44,7 +44,7 @@ const Projects = () => {
                 </div>
                 <div className='box-div card-body'>
                     <h3>{item.title}</h3>
-                    <div>
+                    <div className='d-flex flex-row  justify-content-between align-items-center '>
                     <a className='link' href={item.github}><button className='btn' >Visit GitHub</button></a>
                     <a className='link' href={item.link}>  <button className='btn' >visit Webside</button></a>
                         </div>

@@ -9,17 +9,22 @@ const Skilles = () => {
       <div className="skill w-75 container">
         <div className="skills bg-light shadow m-2">
           <h3>
-            <strong>HTML</strong>
+            <strong>HTML-5</strong>
           </h3>
         </div>
-        <div className="skills bg-light m-2">
+        <div className="skills bg-light shadow m-2">
           <h3>
-            <strong>CSS</strong>
+            <strong>CSS-3</strong>
           </h3>
         </div>
         <div className="skills bg-light shadow m-2">
           <h3>
             <strong>Bootstrap</strong>
+          </h3>
+        </div>
+         <div className="skills bg-light shadow m-2">
+          <h3>
+            <strong>Jquert</strong>
           </h3>
         </div>
         <div className="skills bg-light shadow m-2">
@@ -45,6 +50,11 @@ const Skilles = () => {
         <div className="skills bg-light shadow m-2">
           <h3>
             <strong>React.js</strong>
+          </h3>
+        </div>
+         <div className="skills bg-light shadow m-2">
+          <h3>
+            <strong>React-Native</strong>
           </h3>
         </div>
         <div className="skills bg-light shadow  m-2">

@@ -10,7 +10,7 @@ const NavBar = () => {
   return (
     <div className="bg-white fixed-top ">
       <nav className="navbar navbar-expand-lg navbar-light container">
-        <p>nav</p>
+        <div><strong className="d-flex"><h1 className="name">Salaman</h1><h1 className="text-dark">Ilyas</h1></strong></div>
         <button
           className="navbar-toggler"
           type="button"
@@ -72,18 +72,6 @@ const NavBar = () => {
             >
               {" "}
               Projects{" "}
-            </li>
-            <li
-              className="nav-item  active nav-link m-1  "
-              onClick={() => {
-                const element = document.getElementById("rusuma");
-                if (element) {
-                  element.scrollIntoView({ behavior: "smooth" });
-                }
-              }}
-            >
-              {" "}
-              Rusuma{" "}
             </li>
             <li
               className="nav-item  active nav-link m-1   "

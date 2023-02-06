@@ -12,14 +12,13 @@ const HeroSection = () => {
       <div className="herosection">
         <p>let's built some thing toGetHer</p>
         <h1>
-          <strong> Hi, I'm Salman ilyas </strong>
+        Hi, I'm Salman ilyas 
         </h1>
 
         <h1>
-          <strong>
-            {" "}
-            A Full-Stack <span className="name"> Web Developer</span>
-          </strong>
+         
+            A FullStack <span className="name"> WebDeveloper</span>
+        
         </h1>
         <p className="text-center">
           i'm a full stack web developer. <br /> i can make a webside in

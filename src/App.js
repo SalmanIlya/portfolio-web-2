@@ -8,10 +8,20 @@ import Skilles from './Component/Skills/Skilles';
 import Projects from './Component/Projucts/Projects';
 import Contact from './Component/Contact/Contact';
 import Footer from './Component/Footer/Footer';
-
+import {Helmet,HelmetProvider} from "react-helmet-async"
 function App() {
   return (
 <>
+<HelmetProvider>
+
+<Helmet>
+  <meta>
+  
+  </meta>
+  <title>
+    portfolio webside of salaman ilyas
+  </title>
+</Helmet>
 <NavBar/>
 <HeroSection/>
 <About/>
@@ -19,6 +29,8 @@ function App() {
 <Projects/>
 <Contact/>
 <Footer/>
+</HelmetProvider>
+
 </>
   );
 }
